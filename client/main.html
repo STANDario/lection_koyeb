@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-6">
+                <h3>Список котів</h3>
+                <ul class="list-group", id="dogs">
+
+                </ul>
+            </div>
+
+            <div class="col-6">
+                <h3>Список email власників</h3>
+                <ul class="list-group", id ="owners">
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <form id="ownerCreate">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Введіть email власника</label>
+                        <input type="email" class="form-control" id="name", name="email" placeholder="name@example.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Створити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/app.js"></script>
+</body>
+
+</html>
