@@ -21,7 +21,7 @@ app = FastAPI()
 
 @app.on_event("startup")
 async def startup():
-    r = await redis.Redis(host=settings.redis_host, port=settings.redis_port, db=0)
+    r = await redis.Redis(host=settings.redis_host, port=settings.redis_port, password=settings.redis_password, db=0)
     await FastAPILimiter.init(r)
 
 
