@@ -1,0 +1,16 @@
+sqlalchemy
+uvicorn[standard]
+fastapi
+alembic
+psycopg2
+pydantic[email]
+jinja2
+pydantic-settings
+libgravatar
+redis
+passlib
+fastapi-mail
+python-jose[cryptography]
+cloudinary
+python-multipart
+fastapi-limiter
